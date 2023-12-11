@@ -20,7 +20,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates> -->
     <physics type='ode'>
-      <ode>
+      <!-- <ode>
         <solver>
           <type>quick</type>
           <iters>1000</iters>
@@ -32,10 +32,10 @@
           <contact_max_correcting_vel>100</contact_max_correcting_vel>
           <contact_surface_layer>0.001</contact_surface_layer>
         </constraints>
-      </ode>
-      <max_step_size>0.0025</max_step_size>
+      </ode> -->
+      <max_step_size>0.01</max_step_size>
       <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>400</real_time_update_rate>
+      <real_time_update_rate>100</real_time_update_rate>
       <gravity>0 0 -9.8</gravity>
     </physics>
   </world>
